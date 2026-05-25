@@ -10,8 +10,8 @@ curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
 # 2. Clone + install dependencies
-git clone https://github.com/neilhtennek/wheat-world
-cd wheat-world
+git clone https://github.com/alexinbinary/AleaStrategies
+cd AleaStrategies
 forge install
 
 # 3. Run the test suite
