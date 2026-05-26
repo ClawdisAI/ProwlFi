@@ -1,215 +1,126 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/6a18cb17e0c9073d8ecd1e47_this-logo-features-letter-combined-600nw-2603500055.png" alt="AleaStrategies" width="220" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/6a1f61d08b79f39442109dc1_New%20Project%20-%202026-06-03T000544.113.png" alt="Alea" width="220" />
+</p>
+
+<h1 align="center">Alea</h1>
+
+<p align="center">
+  <em>My AI research agent. Built around the way I actually think about markets.</em>
 </p>
 
 <p align="center">
-  <strong>Find the edge.</strong>
-</p>
-
-<p align="center">
-  <em>Real-time fair-value pricing for sports prediction markets — built for Polymarket.</em>
-</p>
-
-<p align="center">
-  <a href="https://aleastategies.gg"><img alt="Site" src="https://img.shields.io/badge/site-aleastategies.gg-6366f1?style=for-the-badge"></a>
-  <a href="https://polymarket.com/@mynameisdev"><img alt="Polymarket" src="https://img.shields.io/badge/Polymarket-live-1652f0?style=for-the-badge"></a>
-  <a href="https://x.com/tryaleastategies"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40tryaleastategies-000000?logo=x&style=for-the-badge"></a>
-  <a href="https://github.com/tryaleastategies"><img alt="GitHub" src="https://img.shields.io/badge/source-tryaleastategies-181717?logo=github&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <img alt="YC" src="https://img.shields.io/badge/Y%20Combinator-backed-F26522?logo=ycombinator&logoColor=white">
-  <img alt="Sports" src="https://img.shields.io/badge/sports-NBA%20%7C%20NHL%20%7C%20MLB%20%7C%20NFL-white">
-  <img alt="Latency" src="https://img.shields.io/badge/latency-sub%20200ms-22d3a4">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-yellow">
-  <img alt="Status" src="https://img.shields.io/badge/status-live-success">
+  <a href="https://x.com/aleabitoreddit"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40aleabitoreddit-000000?logo=x&style=for-the-badge"></a>
+  <a href="https://github.com/aleabito"><img alt="GitHub" src="https://img.shields.io/badge/github-aleabito-181717?logo=github&style=for-the-badge"></a>
+  <img alt="Site" src="https://img.shields.io/badge/site-coming%20soon-6366f1?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge">
 </p>
 
 ---
 
-## What is AleaStrategies
+## What this is
 
-AleaStrategies is a real-time fair-value pricing engine for sports prediction markets. It ingests live signals — injury wires, confirmed lineups, sharp money movement, weather, and market microstructure — and computes the true probability of every outcome in milliseconds, before the book catches up.
+I built Alea because I got tired of explaining my research process to people.
 
-The gap between AleaStrategies's fair price and Polymarket's implied price is the edge. AleaStrategies exists to surface it, explain it, and get it to you first.
+Everyone asks the same question: *"how do you find these plays before anyone else?"*
 
-> **The result:** a research terminal that tells you where Polymarket is wrong, and exactly why.
+The answer isn't complicated. I don't try to pick which AI company wins. I look at what every AI company needs to exist — and find the two or three suppliers sitting at the chokepoint nobody's mapped yet.
+
+Alea is that process, automated.
+
+---
+
+## The Framework
+
+Most people in this space are asking the wrong question. They're looking at the hyperscalers, the GPU companies, the model labs. By the time those are obvious, they're already priced in.
+
+I ask a different question:
+
+> **What's the thing they all need that only one or two companies make?**
+
+That's where the edge is. Always has been.
+
+The map usually looks something like this:
+
+```
+AI demand scales
+        │
+        ▼
+Clusters need faster interconnects
+        │
+        ▼
+Interconnects need photonics
+        │
+        ▼
+Photonics needs specific substrate materials
+        │
+        ▼
+Two companies make those substrates.
+        │
+        ▼
+Neither of them is on anyone's radar yet.
+```
+
+You buy the substrate companies. You wait. Wall Street eventually runs the same map.
+
+Alea runs this process systematically — across every layer, every dependency, every capex disclosure.
+
+---
+
+## What I Focus On
+
+| Area | What I'm actually looking at |
+|---|---|
+| **AI Data Centers** | Power constraints, cooling architecture, rack density limits |
+| **Semiconductors** | Advanced packaging (CoWoS, SoIC), EUV tooling, fab bottlenecks |
+| **Memory (HBM)** | HBM3E/HBM4 ramp, yield issues, who controls supply |
+| **Silicon Photonics** | Co-packaged optics, transceiver supply, material concentration |
+| **Optical Networking** | Bandwidth scaling limits, DSP power wall, coherent vs. direct-detect |
+| **Supply Chain Chokepoints** | Single-source components, geographic risk, lead time signals |
+| **Hyperscaler Capex** | Microsoft, Google, Amazon, Meta — where the money actually lands |
+
+---
+
+## Theses I've Been Public On
+
+These shaped how Alea was trained to think:
+
+- **$AXTI** — AXT Inc. Gallium arsenide and indium phosphide substrates. Every photonics company upstream of AI networking needs this material. Almost nobody was covering it.
+- **$NBIS** — Nebius Group. GPU cloud infrastructure before the AI cluster buildout became consensus. Classic bottleneck play.
+- **$SIVE** — Supply chain leverage into the silicon/photonics materials stack.
+
+These aren't recommendations. They're examples of the framework in action — small cap, structural chokepoint, institutions haven't arrived yet.
+
+---
+
+## Background
+
+I'm [@aleabitoreddit](https://x.com/aleabitoreddit) on X.
+
+- Started on WallStreetBets
+- Worked as an AI research scientist
+- Contributed to the RISC-V Foundation
+- Now I spend most of my time mapping AI supply chains and trading the gaps
+
+My research is technical but I try to make it readable. I care more about the structural argument than the trade setup — if the thesis is right, the trade follows.
 
 ---
 
 ## How It Works
 
-```
-Signal fires (injury / lineup / sharp move / weather)
-         │
-         ▼  ~0ms
-AleaStrategies fair-value model recomputes
-         │
-         ▼  ~142ms median
-Edge alert delivered (terminal · Discord · webhook · API)
-         │
-         ▼  ~38s average
-Polymarket begins to price the signal in
-```
+Give it a starting point — a company, a trend, a number from an earnings call. It maps the dependency chain in both directions, finds the concentration points, and ranks them by how underpriced they look relative to the structural demand coming downstream.
 
-AleaStrategies monitors every meaningful source across NBA, NHL, MLB, and NFL — official injury feeds, lineup confirmations, public sentiment, aggregated market microstructure — and runs a fair-value model trained on eight seasons of granular game data. When the model diverges from Polymarket's implied price by a meaningful margin, an alert fires.
-
-The model's confidence, the signal type, and the edge size are all returned with every alert so you can weight them appropriately.
-
----
-
-## Features
-
-### Live Edge Terminal
-A full dashboard of every live Polymarket market sorted by absolute edge. Each entry shows the market's implied probability, AleaStrategies's fair-value probability, the edge, and the signal that caused the divergence — with one-click links straight into the Polymarket book.
-
-### Real-Time Signals
-Every alert includes the signal that triggered it:
-
-| Signal | Description |
-|---|---|
-| **Injury** | Official injury wire updates, DNP confirmations, and mid-game exits |
-| **Lineup** | Confirmed starters, scratch announcements, and unexpected rotations |
-| **Sharp money** | Reverse line movement and unusual handle concentration |
-| **Weather** | Wind, temperature, and precipitation at time of kickoff |
-| **Sentiment** | Aggregated public ticket count vs sharp-side divergence |
-| **Rest / travel** | Days of rest differential and back-to-back scheduling |
-
-### Edge Alerts — Four Surfaces
-One signal, four delivery channels — routed in under 200ms:
-
-- **Browser push** — Chromium-style web notification, fires even when AleaStrategies is closed
-- **iOS & Android** — Native push via the AleaStrategies companion app
-- **Discord webhook** — Branded embeds with edge math and a direct Polymarket link
-- **In-app terminal** — Live toast with one-click jump to the market
-
-### Track Record
-Every edge call is logged with its signal, probability, and outcome. The public track record is visible on the dashboard — settled markets show whether AleaStrategies's read was right.
-
-### REST + WebSocket API
-Full programmatic access for developers and trading desks:
+Supports OpenAI, OpenRouter, Gemini, and local inference via LM Studio.
 
 ```bash
-# List every Polymarket market where AleaStrategies finds ≥5% edge
-curl https://api.aleastategies.gg/v1/polymarket/markets \
-  -H "Authorization: Bearer al_live_..." \
-  -G -d min_edge=5 -d sport=NBA
+git clone https://github.com/aleabito/alea
+cd alea
+cargo build --release
 ```
 
-```js
-// Stream edge crossings in real time
-const ws = new WebSocket("wss://stream.aleastategies.gg/v1", {
-  headers: { Authorization: `Bearer ${API_KEY}` },
-});
-
-ws.on("open", () => {
-  ws.send(JSON.stringify({
-    type: "subscribe",
-    channels: ["polymarket.edges.>=5"],
-  }));
-});
-
-ws.on("message", (raw) => {
-  const ev = JSON.parse(raw.toString());
-  console.log(ev.market.game, ev.edge);
-});
-```
-
-```python
-# Python SDK
-from aleastategies import AleaStrategies
-
-client = AleaStrategies(api_key=os.environ["ALEASTATEGIES_API_KEY"])
-markets = client.polymarket.markets.list(min_edge=5, sport="NBA")
-
-for m in markets.data:
-    print(m.game, m.pick, m.edge)
-```
-
-Supported channels: `polymarket.edges.>=N` · `signals.injury` · `signals.lineup` · `markets.{sport}`
+Set your backend in `config.json` and point `characterPrompt` at the research framework file.
 
 ---
 
-## API Reference
+## License
 
-**Base URL:** `https://api.aleastategies.gg/v1`
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/markets` | List all markets with optional edge filter |
-| `GET` | `/markets/:id` | Single market with full signal vector |
-| `GET` | `/markets/:id/history` | Historical edge series for a market |
-| `GET` | `/signals` | Recent signals across all leagues |
-| `POST` | `/alerts` | Register a webhook for edge crossings |
-| `WS` | `wss://stream.aleastategies.gg/v1` | Real-time firehose |
-
-Every market object includes:
-
-```json
-{
-  "id": "mkt_nyk_okc_finals_g5",
-  "sport": "NBA",
-  "game": "Knicks @ Thunder — Finals Game 5",
-  "pick": "Will Thunder win the championship tonight?",
-  "market_prob": 0.76,
-  "alpha_prob": 0.85,
-  "edge": +0.09,
-  "confidence": 0.93,
-  "signal": {
-    "type": "rest",
-    "label": "OKC home closeout; Brunson ankle in doubt"
-  },
-  "polymarket_url": "https://polymarket.com/event/will-the-thunder-win-the-nba-championship",
-  "updated_at": "2026-05-29T18:44:08.482Z"
-}
-```
-
----
-
-## Coverage
-
-| League | Markets |
-|---|---|
-| 🏀 **NBA** | Moneylines · spreads · totals · player props |
-| 🏒 **NHL** | Moneylines · puck lines · totals · goalie-confirmed |
-| ⚾ **MLB** | Moneylines · first-5 · totals · pitcher matchup models |
-| 🏈 **NFL** | Moneylines · spreads · totals · weather-adjusted |
-
----
-
-## Pricing
-
-| Tier | Price | What you get |
-|---|---|---|
-| **Starter** | Free | Live markets, up to 25 alerts/day, 30-second latency, browser push |
-| **Pro** | $19 USDC / mo | Sub-second latency, unlimited alerts + webhooks, player props, historical backtester, API (10k req/day) |
-| **Desk** | Custom | Dedicated infrastructure, WebSocket firehose, custom signal feeds, SLA + on-call |
-
-Payments settle in USDC on Solana. Pro includes a 14-day free trial — no card required.
-
----
-
-## Stack
-
-AleaStrategies is built on Next.js 16, deployed on Vercel. The signal engine runs on a separate low-latency pipeline. The fair-value model is trained on eight seasons of game-level data and updated against live signal feeds. The Polymarket live-markets section fetches directly from the Polymarket Gamma API with no API key required.
-
----
-
-## Links
-
-| | |
-|---|---|
-| 🌐 **Site** | [aleastategies.gg](https://aleastategies.gg) |
-| 📊 **Live markets** | [aleastategies.gg/dashboard](https://aleastategies.gg/dashboard) |
-| ⚡ **API docs** | [aleastategies.gg/developers](https://aleastategies.gg/developers) |
-| 💜 **Polymarket** | [polymarket.com/@mynameisdev](https://polymarket.com/@mynameisdev) |
-| 🐦 **Twitter / X** | [@tryaleastategies](https://x.com/tryaleastategies) |
-| 💻 **GitHub** | [github.com/tryaleastategies](https://github.com/tryaleastategies) |
-| 📩 **Press** | press@aleastategies.gg |
-| 💼 **Sales** | hello@aleastategies.gg |
-
----
-
-<p align="center">
-  <sub>AleaStrategies is a research tool. Probabilities are illustrative; not financial or wagering advice. © 2026 AleaStrategies.</sub>
-</p>
+MIT — code is open. Follow me on [X](https://x.com/aleabitoreddit) if you want the actual analysis.
