@@ -13,10 +13,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.prowl.finance/">Website</a> &nbsp;·&nbsp;
-  <a href="https://www.prowl.finance/">Docs</a> &nbsp;·&nbsp;
-  <a href="https://x.com/tryProwlFi">X / Twitter</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ProwlFi">GitHub</a>
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/prowl.finance-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="34" /></a>
+  &nbsp;
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="34" /></a>
+  &nbsp;
+  <a href="https://x.com/tryProwlFi"><img src="https://img.shields.io/badge/%40tryProwlFi-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/ProwlFi"><img src="https://img.shields.io/badge/ProwlFi-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="34" /></a>
 </p>
 
 <p align="center">
@@ -52,12 +55,15 @@ infrastructure, not a mixer.
 
 ## Links
 
-| | |
-| --- | --- |
-| Website | https://www.prowl.finance/ |
-| Documentation | https://www.prowl.finance/ |
-| X / Twitter | https://x.com/tryProwlFi |
-| GitHub | https://github.com/ProwlFi |
+<p align="center">
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/prowl.finance-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="36" /></a>
+  &nbsp;
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="36" /></a>
+  &nbsp;
+  <a href="https://x.com/tryProwlFi"><img src="https://img.shields.io/badge/%40tryProwlFi-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="36" /></a>
+  &nbsp;
+  <a href="https://github.com/ProwlFi"><img src="https://img.shields.io/badge/ProwlFi-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36" /></a>
+</p>
 
 ## Features
 
