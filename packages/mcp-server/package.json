@@ -19,7 +19,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@prowlfi/sdk": "workspace:*"
+    "@prowlfi/sdk": "*"
   },
   "keywords": ["mcp", "model-context-protocol", "prowlfi", "solana", "x402", "agents"],
   "engines": { "node": ">=18" },

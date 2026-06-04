@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "echo \"no install needed\"",
+  "buildCommand": "echo \"library monorepo — nothing to build for deploy\"",
+  "outputDirectory": "public"
+}
