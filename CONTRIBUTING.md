@@ -1,68 +1,34 @@
-# Contributing to AleaStrategies
+# Contributing to ProwlFi
 
-We're happy to have you. The codebase has two layers — a Rust CLI for the Polymarket API and a Solidity settlement contract. Both reward careful contributions.
+Thanks for your interest in contributing. 🐺
 
-## Quick start
+## Development
+
+This is an npm monorepo.
 
 ```bash
-# 1. Install Rust (https://rustup.rs)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# 2. Clone and build
-git clone https://github.com/notyrjo/WheatWorld
-cd WheatWorld
-cargo build --release
-
-# 3. Run the test suite
-cargo test --release
-
-# For the on-chain contracts:
-# 4. Install Foundry (https://book.getfoundry.sh)
-foundryup
-forge test -vvv
+git clone https://github.com/ProwlFi/ProwlFi.git
+cd ProwlFi
+npm install
+npm run build
+npm run typecheck
 ```
 
-## Before opening a PR
+Packages live under [`packages/`](./packages); runnable examples under
+[`examples/`](./examples); protocol docs under [`docs/`](./docs).
 
-- [ ] `cargo build` passes with no warnings.
-- [ ] `cargo clippy -- -D warnings` passes.
-- [ ] `cargo fmt --check` passes.
-- [ ] `forge build` passes for any Solidity changes.
-- [ ] `forge test` passes locally.
-- [ ] New behavior is covered by a test.
-- [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, etc.).
+## Pull requests
 
-## What we'll merge
+1. Fork the repo and create a feature branch from `master`.
+2. Keep changes focused; add or update tests and docs where relevant.
+3. Run `npm run typecheck` before opening the PR.
+4. Use clear, descriptive commit messages.
 
-- Bug fixes with a failing test attached.
-- New signal types aligned with the AleaStrategies taxonomy.
-- Output formatting improvements.
-- Documentation improvements.
-- Gas optimizations with `forge snapshot` deltas in the PR description.
+## Reporting bugs
 
-## What we won't merge
+Open an issue with a minimal reproduction. For anything security-sensitive, do
+**not** open a public issue — follow [SECURITY.md](./SECURITY.md) instead.
 
-- Changes that add off-chain dependencies to the on-chain contract.
-- Drive-by reformatting unrelated to your patch.
-- Features that break the `MIN_EDGE_BPS` invariant without a written rationale.
+## Code of Conduct
 
-## Coding style — Rust
-
-- Clippy clean, no `unwrap()` in library code — use `?` and `anyhow::Context`.
-- One crate, flat module layout.
-- Output functions live in `src/output/` — don't print from commands directly.
-
-## Coding style — Solidity
-
-- `^0.8.24`, `via_ir = true`.
-- Custom errors only — no `require` strings.
-- Events on every state mutation.
-- Storage layout is append-only.
-
-## Security
-
-If you've found a vulnerability, please follow [SECURITY.md](./SECURITY.md) and do **not** file a public issue.
-
----
-
-Questions? Reach us at [@tryaleastategies](https://x.com/tryaleastategies) on X.
+Participation is governed by our [Code of Conduct](./CODE_OF_CONDUCT.md).

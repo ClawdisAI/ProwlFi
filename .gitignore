@@ -1,23 +1,28 @@
-# Anchor / Solana build artifacts
-.anchor/
-target/
-test-ledger/
-
-# Node
+# dependencies
 node_modules/
-yarn-error.log
-npm-debug.log
+.pnp
+.pnp.js
 
-# IDL output
-*.json.bak
+# build output
+dist/
+build/
+*.tsbuildinfo
 
-# Editors
-.vscode/
-.idea/
-*.swp
-.DS_Store
-Thumbs.db
-
-# Local env
+# env / secrets
 .env
-.env.*.local
+.env.*
+!.env.example
+*.pem
+keypair*.json
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json

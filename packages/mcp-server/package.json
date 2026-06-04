@@ -1,0 +1,27 @@
+{
+  "name": "@prowlfi/mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server exposing ProwlFi stealth + x402 tools to any MCP host.",
+  "license": "MIT",
+  "homepage": "https://www.prowl.finance/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProwlFi/ProwlFi.git",
+    "directory": "packages/mcp-server"
+  },
+  "type": "module",
+  "bin": { "prowlfi-mcp": "./dist/index.js" },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@prowlfi/sdk": "workspace:*"
+  },
+  "keywords": ["mcp", "model-context-protocol", "prowlfi", "solana", "x402", "agents"],
+  "engines": { "node": ">=18" },
+  "publishConfig": { "access": "public" }
+}

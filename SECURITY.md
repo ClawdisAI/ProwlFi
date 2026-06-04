@@ -1,50 +1,26 @@
 # Security Policy
 
-## Supported Versions
+ProwlFi handles value transfer, so we take security seriously. The stealth scheme
+and on-chain program are scoped for third-party audit; until that completes, treat
+mainnet usage accordingly.
 
-| Version          | Supported |
-| :--------------- | :-------: |
-| `master` (latest)|     ✓     |
-| Mainnet deploys  |     ✓     |
-| Pre-audit tags   |     ✗     |
+## Reporting a vulnerability
 
-## Reporting a Vulnerability
+**Please do not open public issues for security reports.**
 
-If you've found a vulnerability in AleaStrategies, **do not open a public issue**. We'd rather hear about it first.
+Email **security@prowl.finance** with:
 
-- Email: `security@aleastategies.gg`
-- Response: within **48 hours**, triage within **5 business days**.
+- a description of the issue and its impact,
+- steps to reproduce or a proof of concept,
+- any suggested remediation.
 
-Please include:
-
-1. A clear description of the issue and its impact.
-2. A minimal reproduction — Foundry test, transaction trace, or step-by-step.
-3. Your name or handle if you'd like credit in the disclosure.
+We aim to acknowledge reports within 72 hours and will keep you updated as we
+investigate. Responsible disclosure is appreciated, and we're happy to credit
+reporters once a fix has shipped.
 
 ## Scope
 
-In-scope:
-
-- `contracts/AleaStrategies.sol` and any contracts deployed at addresses listed in `deployments/`.
-- The deployment script `script/Deploy.s.sol`.
-- The Rust CLI (`src/`) — specifically auth handling and key storage.
-
-Out of scope:
-
-- Polymarket infrastructure issues — report those to Polymarket directly.
-- Issues requiring privileged access used as intended.
-- Theoretical issues without a viable on-chain attack path.
-
-## Disclosure Policy
-
-We follow coordinated disclosure:
-
-1. Reproduce and confirm.
-2. Develop and test a patch.
-3. Notify affected users and partners.
-4. Deploy the patch.
-5. Publish a post-mortem within 30 days.
-
-Responsible reporters are eligible for bounties. Amount scales with severity and quality of the report.
-
-Thank you for keeping AleaStrategies safe.
+In scope: the SDK, the MCP server, the on-chain announcement program, and the
+key-derivation logic. Out of scope: host/runtime compromise, network-layer
+metadata (IP) leakage, and third-party dependencies — see
+[docs/threat-model.md](./docs/threat-model.md).

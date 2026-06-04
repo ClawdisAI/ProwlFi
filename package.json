@@ -1,0 +1,26 @@
+{
+  "name": "prowlfi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Private rails for the agentic economy on Solana — stealth addresses and x402 payments for AI agents.",
+  "license": "MIT",
+  "homepage": "https://www.prowl.finance/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProwlFi/ProwlFi.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

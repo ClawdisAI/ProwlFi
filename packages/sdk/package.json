@@ -1,0 +1,41 @@
+{
+  "name": "@prowlfi/sdk",
+  "version": "0.1.0",
+  "description": "Private rails for the agentic economy on Solana — stealth addresses and x402 payments for AI agents.",
+  "license": "MIT",
+  "homepage": "https://www.prowl.finance/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProwlFi/ProwlFi.git",
+    "directory": "packages/sdk"
+  },
+  "bugs": "https://github.com/ProwlFi/ProwlFi/issues",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "solana",
+    "stealth-addresses",
+    "x402",
+    "privacy",
+    "agents",
+    "ai-agents",
+    "payments",
+    "svm"
+  ],
+  "engines": { "node": ">=18" },
+  "publishConfig": { "access": "public" }
+}
