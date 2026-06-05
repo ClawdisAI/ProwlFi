@@ -116,7 +116,13 @@ This is a monorepo for the ProwlFi protocol and its agent-facing surfaces.
 </p>
 
 <p align="center">
-  Something is coming. Follow <a href="https://x.com/tryProwlFi">@tryProwlFi</a> for the announcement.
+  <a href="https://pump.fun/coin/2C2fvt4zJ3SUUeah4tJ9mXbSNTN6sEHKXBwNHUdapump">
+    <img src="https://img.shields.io/badge/buy%20%24PROWL-84D9B5?style=for-the-badge&logo=solana&logoColor=06231b" alt="Buy on pump.fun" height="36" />
+  </a>
+</p>
+
+<p align="center">
+  <code>2C2fvt4zJ3SUUeah4tJ9mXbSNTN6sEHKXBwNHUdapump</code>
 </p>
 
 ## How it works
