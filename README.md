@@ -119,7 +119,7 @@ This is a monorepo for the Clawdis protocol and its agent-facing surfaces.
 
 
 <p align="center">
-  <a href="https://pump.fun/coin/2yDL2okKMtkxtSomVWVfr6Y8JDBuidRX3e4Qx8hBBAGS">
+  <a href="https://bags.fm/2yDL2okKMtkxtSomVWVfr6Y8JDBuidRX3e4Qx8hBBAGS">
     <img src="https://img.shields.io/badge/buy%20%24CLAWDIS-84D9B5?style=for-the-badge&logo=solana&logoColor=06231b" alt="Buy on pump.fun" height="36" />
   </a>
 </p>
