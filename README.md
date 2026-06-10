@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="./assets/banner.png" alt="Clawdis" width="100%" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/6a2970ee5005ba5486967b66_clawdisbanner.png" alt="Clawdis" width="100%" />
 </p>
 
 <h1 align="center">Clawdis</h1>
@@ -17,9 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/clawdis.ai-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="34" /></a>
-  &nbsp;
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="34" /></a>
+  Site Coming Soon
   &nbsp;
   <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="34" /></a>
   &nbsp;
@@ -70,9 +68,7 @@ infrastructure, not a mixer.
 ## Links
 
 <p align="center">
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/clawdis.ai-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="36" /></a>
-  &nbsp;
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="36" /></a>
+  Site Coming Soon
   &nbsp;
   <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="36" /></a>
   &nbsp;
@@ -121,20 +117,15 @@ This is a monorepo for the Clawdis protocol and its agent-facing surfaces.
 | [`@clawdis/sdk`](./packages/sdk) | TypeScript SDK — stealth derivation, x402 payments, scanning, sweeps. |
 | [`@clawdis/mcp-server`](./packages/mcp-server) | Model Context Protocol server exposing Clawdis tools to Claude Code, Cursor, Windsurf, and any MCP host. |
 
-## Clawdis x Pump.fun
 
 <p align="center">
-  <img src="./assets/prowl-pumpfun.png" alt="Clawdis x Pump.fun" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://pump.fun/coin/2C2fvt4zJ3SUUeah4tJ9mXbSNTN6sEHKXBwNHUdapump">
+  <a href="https://pump.fun/coin/2yDL2okKMtkxtSomVWVfr6Y8JDBuidRX3e4Qx8hBBAGS">
     <img src="https://img.shields.io/badge/buy%20%24CLAWDIS-84D9B5?style=for-the-badge&logo=solana&logoColor=06231b" alt="Buy on pump.fun" height="36" />
   </a>
 </p>
 
 <p align="center">
-  <code>2C2fvt4zJ3SUUeah4tJ9mXbSNTN6sEHKXBwNHUdapump</code>
+  <code>2yDL2okKMtkxtSomVWVfr6Y8JDBuidRX3e4Qx8hBBAGS</code>
 </p>
 
 ## How it works
